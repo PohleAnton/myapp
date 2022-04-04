@@ -9,7 +9,11 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        int test;
+        Klasse ttt = new Klasse(22);
+
+        test= ttt.getAge();
+        System.out.println(test);
     }
 
 }
